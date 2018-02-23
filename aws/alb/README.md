@@ -10,3 +10,5 @@ The following files can be found here
 - `alb_log_example.txt` : The example data provided by AWS for ALB logs
 - `alb_log_header_example.txt` : The example data provided by AWS for ALB logs but with a header row
 - `alb_data_load_simple_example.cql` : A simple example of loading the data into NEO4J. (using load csv)
+
+Read more about AWS ALB Logging [here](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-access-logs.html) 
