@@ -9,6 +9,10 @@ The idea being to provide examples POC type LOAD CSV examples to get various log
 
 Amazon Web Services related log parsing examples
 
+### aws/general/tomcat
+
+Tomcat log file examples
+
 ## General
 
 General files for setting up nodes in neo4j.
