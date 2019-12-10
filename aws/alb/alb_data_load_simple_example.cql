@@ -45,7 +45,15 @@ set request.name = line[0],
 	request.target_group_arn  = line[16],
 	request.trace_id  = line[17],
 	request.domain_name  = line[18],
-	request.chosen_cert_arn = line[19]
+	request.chosen_cert_arn = line[19],
+	request.matched_rule_priority = line[20],
+	request.request_creation_time = line[21],
+	request.actions_executed = line[22],
+	request.redirect_url = line[23],
+	request.error_reason = line[24],
+	request.target_port_list = line[25],
+	request.target_status_code_list = line[26]
+
 
 MERGE (client:Client {id: CLIENT_IP[0] })
 MERGE (target:Target {id: line[4] })
